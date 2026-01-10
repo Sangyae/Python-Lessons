@@ -21,3 +21,11 @@ if result:
     print("YEs there is at least one common number.")
 else:
     print("NO there is not even a single common numberes.")
+
+names = {'Bibek':24, 'Sapkota':22 }
+
+if 'Bibek' in names:
+    print("YEs there is bibek")
+else:
+    print("No sorry")
+

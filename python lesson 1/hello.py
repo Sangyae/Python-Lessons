@@ -1,9 +1,5 @@
-greetings = 'Hello World!'
-print(greetings)
-# count = 0
+mutableset = {1,2,3,4}
 
-# while count < 5:
-#     count += 1
-#     if count == 4:
-#         continue
-# print(count, end="")
+mutableset.add(5)
+mutableset.remove(2)
+print(mutableset)
