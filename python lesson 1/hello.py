@@ -1,2 +1,9 @@
-greetings = 'Hello World!'
-print(greetings)
+# greetings = 'Hello World!'
+# print(greetings)
+count = 0
+
+while count < 5:
+    count += 1
+    if count == 4:
+        continue
+print(count, end="")
