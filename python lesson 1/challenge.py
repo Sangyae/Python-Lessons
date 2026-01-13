@@ -1,4 +1,3 @@
-books = { 'bibek', 'Tamang'}
 class Library:
     def __init__(self, books):
         self.available_books = books
