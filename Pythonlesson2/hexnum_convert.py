@@ -5,8 +5,8 @@ hexNumbers = {
 
 def HextoDec(hexNum):
     for char in hexNum:
-        if char not in hexNum:
-            return "number is not in Hexnumbers"
+        if char not in hexNumbers:
+            return None
 
     if len(hexNum) == 3:
         return hexNumbers[hexNum[0]] * 256 + hexNumbers[hexNum[1]] * 16 + hexNumbers[hexNum[2]] * 1
@@ -17,4 +17,4 @@ def HextoDec(hexNum):
     if len(hexNum) == 1:
         return hexNumbers[hexNum[0]] 
 
-
+print("Hex A1 in Dec is :", HextoDec("A1"))
